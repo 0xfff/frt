@@ -340,7 +340,7 @@ void  aioRead(int numReqs,char  (* filenames)[max_num_files], char * directory){
 					}// end for
 				}//end if   READ
 					
-				// MONITOR******
+				// AIO MONITOR******
 				if (thread_id == lastThread) {			
 					openReqs = numReqs;
 					int s,j;
